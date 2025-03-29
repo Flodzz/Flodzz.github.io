@@ -1,0 +1,62 @@
+* {
+    font-family: "Roboto Light", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.headerContents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 20px;
+    background-color: white;
+    color: rgb(13, 27, 42);
+    font-size: large;
+    font-weight: bold;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.main {
+    display: table-column;
+}
+
+.footerContents {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding-top: 40px;
+    padding-left: 15%;
+    background-color: rgb(232, 233, 243);
+    color: rgb(13, 27, 42);
+    flex: 1;
+
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: white;
+    color: rgb(13, 27, 42);
+}
+
