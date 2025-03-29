@@ -53,9 +53,17 @@
     margin-bottom: 50vh;
 }
 
-.footerContents {
+.footerLinks {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.footerLinks a {
+    color: rgb(13, 27, 42);
+    text-decoration: none;
 }
 
 .scrolled {
@@ -89,7 +97,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 160px;
+    height: auto;
+    padding: 50px;
     background-color: white;
     color: rgb(13, 27, 42);
 }
