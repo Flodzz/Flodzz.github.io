@@ -1,2 +1,19 @@
-.idea/
+# macOS system files
 .DS_Store
+
+# Build or generated files
+dist/
+build/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDE settings
+.idea/
+
+# Ignore environment files
+.env
